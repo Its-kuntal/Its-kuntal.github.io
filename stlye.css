@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: #f4f4f9;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Navy-Blue-Backgrounds-Download.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background: #fff;
+    background-image: url('https://wallpapers.com/images/hd/light-background-clzsv1nzaxgpyyto.jpg');
+    background-size: cover;
+    border-color: #d9cc14;
+    border-style: solid;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #3b3b3b;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#task-input:focus {
+    outline: none;
+    border-color: #7d5fff;
+}
+
+#add-task-btn {
+    padding: 10px 15px;
+    background-color: #7d5fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#add-task-btn:hover {
+    background-color: #5a42d4;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#task-list li {
+    background: #f9f9f9;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #f0f0f0;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 15px;
+    transition: background-color 0.2s;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
